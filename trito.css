@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+} 
+
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+    align-items:center;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(43, 43, 74);
+}
+.navbar li{
+    padding: 20px;
+}
+#downloadcv a{
+    color: white;
+    background-color: rgb(43, 43, 74);
+    padding: 10px 20px 10px 20px ;
+}
+.navbar ul li{
+    padding: 20px;
+}
+
+#downloadcv a:hover{
+    color: rgb(43, 43, 74);
+    background-color: white;
+    border: 2px solid rgb(43, 43, 74);
+}
+
+/* ==================================================navbar end================================================================= */
+/* ===================================================start hero=============================================================== */
+#main_hero{
+    display: flex;
+    justify-content:space-evenly;
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+}
+#main_hero #main_hero3{
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+}
+#main_hero1{
+    margin: 140px 0px 0px 30px;
+}
+#main_hero1 #hero1{
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+#main_hero1 #hero2{
+    font-weight: bold;
+    font-size: 50px;
+}
+#main_hero1 p{
+    font-size: 23px;
+    margin-top: 14px;
+}
+#main_hero1 #say_hello{
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+#main_hero1 #main_hero2 li{
+    margin-top: 10px;
+}
+#main_hero1 #main_hero2 ul li a{
+    font-size: 18px;
+    text-decoration: none;
+}
+#main_hero3{
+   margin-top: 121px;
+   margin-right: 100px;
+}
+#say_hello button{
+    font-size: 18px;
+    align-items: center; 
+    border: 2px solid rgb(43, 43, 74);
+}
+#say_hello button a{
+    margin-left: 5px;
+
+}
+#say_hello a{
+    margin-left: 20px;
+}
+#say_hello{
+    margin-top: 45px;
+}
+#icons{
+    font-size: 20px;
+    position: absolute;
+    right: 90px;
+    top: 650px;
+}
+#icons i{
+    border: 12px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 50px;
+}
+
